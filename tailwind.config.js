@@ -1,4 +1,3 @@
-// tailwind.config.js
 const { nextui } = require("@nextui-org/react");
 
 /** @type {import('tailwindcss').Config} */
@@ -12,6 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        body: ["Poppins"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -23,66 +25,60 @@ module.exports = {
   plugins: [
     nextui({
       themes: {
-        spring: {
-          extend: "light",
+        cDark: {
+          extend: "dark",
           colors: {
-            background: "#efeee5",
-            foreground: "#554839",
+            background: "#0E141B",
+            foreground: "#ffffff",
             primary: {
-              50: "#f5f4ee",
-              100: "#efeee5",
-              200: "#dfdcc9",
-              300: "#cac4a7",
-              400: "#b4a883",
-              500: "#a5946a",
-              600: "#98835e",
-              700: "#7f6b4f",
-              800: "#685844",
-              900: "#554839",
-              950: "#2d261d",
-              DEFAULT: "#554839",
+              DEFAULT: "#4B6176",
+              foreground: "#ffffff",
+            },
+            secondary: {
+              DEFAULT: "#447FD2",
               foreground: "#ffffff",
             },
             success: {
-              100: "#DCFCD6",
-              200: "#B2F9AE",
-              300: "#82ED86",
-              400: "#60DB70",
-              500: "#31C453",
-              600: "#23A84F",
-              700: "#188D49",
-              800: "#0F7142",
-              900: "#095E3D",
-              DEFAULT: "#0F7142",
+              DEFAULT: "#62B54C",
               foreground: "#ffffff",
             },
             warning: {
-              100: "#FDF9CC",
-              200: "#FBF29A",
-              300: "#F5E567",
-              400: "#ECD541",
-              500: "#E0C008",
-              600: "#C0A205",
-              700: "#A18504",
-              800: "#816902",
-              900: "#6B5501",
-              DEFAULT: "#816902",
+              DEFAULT: "#E0DB45",
               foreground: "#ffffff",
             },
             danger: {
-              100: "#FFDAD6",
-              200: "#FFAEAE",
-              300: "#FF8592",
-              400: "#FF6785",
-              500: "#FF3571",
-              600: "#DB266E",
-              700: "#B71A67",
-              800: "#93105E",
-              900: "#7A0A57",
-              DEFAULT: "#93105E",
+              DEFAULT: "#D97C3E",
               foreground: "#ffffff",
             },
-            focus: "#F182F6",
+            focus: "#4B6176",
+          },
+        },
+        cLight: {
+          extend: "light",
+          colors: {
+            background: "#ffffff",
+            foreground: "#000000",
+            primary: {
+              DEFAULT: "#4433FF",
+              foreground: "#ffffff",
+            },
+            secondary: {
+              DEFAULT: "#2CD4F9",
+              foreground: "#ffffff",
+            },
+            success: {
+              DEFAULT: "#B1E514",
+              foreground: "#ffffff",
+            },
+            warning: {
+              DEFAULT: "#FFAF38",
+              foreground: "#ffffff",
+            },
+            danger: {
+              DEFAULT: "#F7402C",
+              foreground: "#ffffff",
+            },
+            focus: "#4433FF",
           },
         },
       },

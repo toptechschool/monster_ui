@@ -26,7 +26,7 @@ export default function Features() {
           <CardHeader className="flex gap-3">
             <Image src={ChatBot} width={50} alt="Icon of Chat Monster" />
             <div className="flex flex-col">
-              <p className="text-md">Accurate Answer, Reliable</p>
+              <p className="text-lg font-bold">Accurate Answer, Reliable</p>
             </div>
           </CardHeader>
           <Divider />
@@ -43,7 +43,7 @@ export default function Features() {
           <CardHeader className="flex gap-3">
             <Image src={ChatBot} width={50} alt="Icon of Chat Monster" />
             <div className="flex flex-col">
-              <p className="text-md">Lead Generation Engine</p>
+              <p className="text-lg font-bold">Lead Generation Engine</p>
             </div>
           </CardHeader>
           <Divider />
@@ -60,7 +60,7 @@ export default function Features() {
           <CardHeader className="flex gap-3">
             <Image src={ChatBot} width={50} alt="Icon of Chat Monster" />
             <div className="flex flex-col">
-              <p className="text-md">24/7 Service</p>
+              <p className="text-lg font-bold">24/7 Service</p>
             </div>
           </CardHeader>
           <Divider />

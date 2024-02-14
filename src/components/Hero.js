@@ -21,7 +21,7 @@ export default function Hero() {
             <br />
             For Your Website
           </h1>
-          <p className="text-lg">
+          <p className="text-lg leading-8">
             Make a custom AI based Chat Bot
             <br />
             Based on principles similar to ChatGPT

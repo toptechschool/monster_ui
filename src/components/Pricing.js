@@ -31,11 +31,11 @@ export default function Pricing() {
           <Card>
             <CardHeader className="flex gap-3">
               <div className="flex flex-col">
-                <p className="text-3xl text-center py-4">Starter</p>
+                <p className="text-3xl text-center py-4 font-bold">Starter</p>
                 <p className="text-small text-default-500 px-4">
                   Create and embed a custom chatbot on your website or app.
                 </p>
-                <h2 className="text-3xl font-bold text-center p-4">50$</h2>
+                <h2 className="text-3xl text-center p-4">50$</h2>
               </div>
             </CardHeader>
             <Divider />
@@ -67,11 +67,11 @@ export default function Pricing() {
           <Card>
             <CardHeader className="flex gap-3">
               <div className="flex flex-col">
-                <p className="text-3xl text-center py-4">Standard</p>
+                <p className="text-3xl text-center py-4 font-bold">Standard</p>
                 <p className="text-small text-default-500 px-4">
                   Create and embed a custom chatbot on your website or app.
                 </p>
-                <h2 className="text-3xl font-bold text-center p-4">100$</h2>
+                <h2 className="text-3xl text-center p-4">100$</h2>
               </div>
             </CardHeader>
             <Divider />
@@ -103,11 +103,11 @@ export default function Pricing() {
           <Card>
             <CardHeader className="flex gap-3">
               <div className="flex flex-col">
-                <p className="text-3xl text-center py-4">Premium</p>
+                <p className="text-3xl text-center py-4 font-bold">Premium</p>
                 <p className="text-small text-default-500 px-4">
                   Create and embed a custom chatbot on your website or app.
                 </p>
-                <h2 className="text-3xl font-bold text-center p-4">150$</h2>
+                <h2 className="text-3xl text-center p-4">150$</h2>
               </div>
             </CardHeader>
             <Divider />
