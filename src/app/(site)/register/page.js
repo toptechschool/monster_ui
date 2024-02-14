@@ -52,10 +52,7 @@ export default function Register() {
                     </Link>
                   </p>
                   <div className="flex gap-2 justify-end">
-                    <Button
-                      fullWidth
-                      className="bg-gradient-to-t from-fuchsia-600 to-pink-600 text-white shadow-lg"
-                    >
+                    <Button fullWidth color="primary" className="shadow-lg">
                       Login
                     </Button>
                   </div>
@@ -88,10 +85,7 @@ export default function Register() {
                     </Link>
                   </p>
                   <div className="flex gap-2 justify-end">
-                    <Button
-                      fullWidth
-                      className="bg-gradient-to-t from-fuchsia-600 to-pink-600 text-white shadow-lg"
-                    >
+                    <Button fullWidth color="primary" className="shadow-lg">
                       Sign up
                     </Button>
                   </div>

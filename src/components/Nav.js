@@ -52,7 +52,7 @@ export default function Nav() {
       </NavbarContent>
 
       <NavbarContent
-        className="hidden sm:flex flex-1 items-center justify-center gap-10 text-sm font-semibold leading-6 text-gray-900 lg:flex"
+        className="hidden sm:flex flex-1 items-center justify-center gap-10 text-sm font-semibold leading-6 lg:flex"
         justify="center"
       >
         <NavbarItem>
@@ -78,13 +78,13 @@ export default function Nav() {
         <NavbarItem>
           <Switch
             size="md"
-            color="default"
+            color="primary"
             startContent={<SunIcon />}
             endContent={<MoonIcon />}
           ></Switch>
         </NavbarItem>
         <NavbarItem className="hidden lg:flex">
-          <Link href="/register" className="text-white">
+          <Link href="/register" color="primary">
             Login
           </Link>
         </NavbarItem>
@@ -93,7 +93,7 @@ export default function Nav() {
             as={Link}
             color="primary"
             href="/register"
-            className="ml-2 rounded-xl bg-gradient-to-t from-fuchsia-600 to-pink-600 text-white shadow-lg   px-4 py-2  text-sm font-semibold  leading-7 text-white shadow-sm"
+            className="ml-2 rounded-xl px-4 py-2  text-sm font-semibold  leading-7 shadow-sm"
           >
             Register
           </Button>

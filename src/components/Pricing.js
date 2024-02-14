@@ -16,10 +16,10 @@ export default function Pricing() {
       <div className="flex flex-col gap-1 mb-16 p-4 md:p-0">
         <Chip
           size="lg"
-          variant="shadow"
+          color="primary"
           classNames={{
-            base: "bg-gradient-to-t from-fuchsia-600 to-pink-600 border-white/50 shadow-pink-500/30 px-10 py-7",
-            content: "drop-shadow shadow-black text-white text-xl",
+            base: "px-10 py-7",
+            content: "drop-shadow shadow-black text-xl",
           }}
         >
           Pricing
@@ -54,7 +54,8 @@ export default function Pricing() {
                   as={Link}
                   size="lg"
                   href="#"
-                  className="bg-gradient-to-t from-fuchsia-600 to-pink-600 text-white shadow-lg"
+                  color="primary"
+                  className="shadow-lg"
                 >
                   Buy Now
                 </Button>
@@ -89,7 +90,8 @@ export default function Pricing() {
                   as={Link}
                   size="lg"
                   href="#"
-                  className="bg-gradient-to-t from-fuchsia-600 to-pink-600 text-white shadow-lg"
+                  color="primary"
+                  className="shadow-lg"
                 >
                   Buy Now
                 </Button>
@@ -124,7 +126,8 @@ export default function Pricing() {
                   as={Link}
                   size="lg"
                   href="#"
-                  className="bg-gradient-to-t from-fuchsia-600 to-pink-600 text-white shadow-lg"
+                  color="primary"
+                  className="shadow-lg"
                 >
                   Buy Now
                 </Button>
@@ -147,9 +150,10 @@ export default function Pricing() {
             <div className="p-4">
               <Button
                 as={Link}
+                color="primary"
                 size="lg"
                 href="#"
-                className="bg-gradient-to-t from-fuchsia-600 to-pink-600 text-white shadow-lg"
+                className="shadow-lg"
               >
                 Contact Now
               </Button>

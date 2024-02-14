@@ -15,8 +15,9 @@ export default function Join() {
             <Button
               as={Link}
               size="lg"
+              color="primary"
               href="/register"
-              className="bg-gradient-to-t from-fuchsia-600 to-pink-600 text-white shadow-lg"
+              className="shadow-lg"
             >
               Explore Now
             </Button>

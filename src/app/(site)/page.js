@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <NextUIProvider>
       <ScrollShadow>
-        <main className="dark text-foreground bg-background">
+        <main className="spring text-foreground bg-background">
           <Nav />
           <Hero />
           <Features />

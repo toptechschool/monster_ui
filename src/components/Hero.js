@@ -31,12 +31,7 @@ export default function Hero() {
             Customer support, lead generation, and user engagement etc.
           </p>
           <div className="flex flex-col md:flex-row gap-4 pt-2">
-            <Button
-              size="lg"
-              color="primary"
-              href="#"
-              className="bg-gradient-to-t from-fuchsia-600 to-pink-600 text-white shadow-lg"
-            >
+            <Button size="lg" color="primary" href="#" className="shadow-lg">
               Create your Chat Monster
             </Button>
 
@@ -44,7 +39,7 @@ export default function Hero() {
               size="lg"
               color="primary"
               href="#"
-              className="rounded-xl bg-zinc-900 px-4 py-auto  text-sm font-semibold text-white shadow-sm"
+              className="rounded-xl bg-[#998973] px-4 py-auto  text-sm font-semibold shadow-sm"
             >
               Watch a Demo Video
             </Button>

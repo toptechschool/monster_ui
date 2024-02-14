@@ -16,9 +16,9 @@ export default function UserReview() {
       <div className="flex flex-col gap-4 mb-4 md:mb-16 p-4 md:p-0">
         <Chip
           size="lg"
-          variant="shadow"
+          color="primary"
           classNames={{
-            base: "bg-gradient-to-t from-fuchsia-600 to-pink-600 border-white/50 shadow-pink-500/30 px-10 py-7",
+            base: "px-10 py-7",
             content: "drop-shadow shadow-black text-white text-xl",
           }}
         >
