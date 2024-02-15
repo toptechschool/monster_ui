@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import HeroImage from "../../public/hero.jpg";
 import { Button } from "@nextui-org/react";
+import { ArrowRightIcon, Video } from "lucide-react";
 
 export default function Hero() {
   const imageStyle = {
@@ -33,6 +34,7 @@ export default function Hero() {
           <div className="flex flex-col md:flex-row gap-4 pt-2">
             <Button size="lg" color="primary" href="#" className="shadow-lg">
               Create your Chat Monster
+              <ArrowRightIcon size={18} />
             </Button>
 
             <Button
@@ -41,7 +43,7 @@ export default function Hero() {
               href="#"
               className="rounded-xl bg-[#998973] px-4 py-auto  text-sm font-semibold shadow-sm"
             >
-              Watch a Demo Video
+              Watch a Demo Video <Video />
             </Button>
           </div>
         </div>
