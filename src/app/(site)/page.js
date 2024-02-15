@@ -17,7 +17,7 @@ export default function Home() {
   return (
     <NextUIProvider>
       <ScrollShadow>
-        <main className="cDark font-serif text-foreground bg-background tracking-wide">
+        <main className="cDark font-body text-foreground bg-background tracking-wide">
           <Nav />
           <Hero />
           <Features />

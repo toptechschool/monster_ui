@@ -4,7 +4,6 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter,
   Divider,
   Button,
   Link,
@@ -152,7 +151,7 @@ export default function Pricing() {
                 as={Link}
                 color="primary"
                 size="lg"
-                href="#"
+                href="/register"
                 className="shadow-lg"
               >
                 Contact Now
