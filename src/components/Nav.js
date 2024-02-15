@@ -15,6 +15,7 @@ import { MoonIcon } from "./MoonIcon";
 import { SunIcon } from "./SunIcon";
 import Image from "next/image";
 import ChatBot from "../../public/chatBot.png";
+import { ChevronRight } from "lucide-react";
 
 export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -120,7 +121,7 @@ export default function Nav() {
             href="/register"
             className="ml-2 rounded-xl px-4 py-2  text-sm font-semibold  leading-7 shadow-sm"
           >
-            Register
+            Register <ChevronRight size={15} />
           </Button>
         </NavbarItem>
       </NavbarContent>
