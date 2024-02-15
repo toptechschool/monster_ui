@@ -10,8 +10,6 @@ import {
   CardBody,
   CardHeader,
 } from "@nextui-org/react";
-import Nav from "../../../components/Nav";
-
 export default function Register() {
   const [selected, setSelected] = React.useState("login");
   return (
